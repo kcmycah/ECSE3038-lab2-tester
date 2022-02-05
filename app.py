@@ -62,7 +62,7 @@ def patchProfile():
 
 
 #GET/Data
-@app.route("/getData", methods = ["GET"])
+@app.route("/data", methods = ["GET"])
 def getdata():
   o = request.json["long"]
   a = request.json["lat"]
