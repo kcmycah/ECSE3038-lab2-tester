@@ -9,6 +9,11 @@ FAKE_DATABASE=[]
 count = 0
 
 #GET/Profile
+@app.route("/profile", methods = ["GET"])
+def getUsers():
+  return jsonify(FAKE_DATABASE)
+
+
 @app.route("/profile", methods =["GET"])
 def getProfile():
   u = request.json["username"]
