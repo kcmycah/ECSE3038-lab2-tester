@@ -1,4 +1,4 @@
-# ECSE3038-lab2-tester
+# ECSE3038_lab2
 
 Design project that will be used to manage a system that monitors the status of a set of electronically measured water tanks. The embedded circuit attached to each water tank will measure the height of the water in the tank and report on the tank's current occupancy as a percentage of its maximum capacity.
 The requirement is to design a RESTful API that allows each IoT enabled water tank to interface with a server so that the measure values can be represented visually on a web page.
