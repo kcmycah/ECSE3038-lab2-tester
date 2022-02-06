@@ -9,7 +9,7 @@ FAKE_DATABASE=[]
 count = 0
 
 #GET/Profile
-@app.route("/Profile", methods =["GET"])
+@app.route("/profile", methods =["GET"])
 def getProfile():
   u = request.json["username"]
   c = request.json["color"]
